@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ErrorMessage: Error {
+enum ErrorMessage: Error, Equatable {
     case badURL
     case badData
     case decodingFailed

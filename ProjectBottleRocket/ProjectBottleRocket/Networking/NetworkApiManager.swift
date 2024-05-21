@@ -42,7 +42,6 @@ extension NetworkManager: NetworkServiceApi {
                 print(error)
                 completion(.failure(ErrorMessage.decodingFailed))
             }
-            
         }
     }
     
@@ -63,7 +62,7 @@ extension NetworkManager: NetworkServiceApi {
         }
     }
     
-    private func performErrorChecking(_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Result<Data, Error> {
+    func performErrorChecking(_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Result<Data, Error> {
         if let error = error {
             return .failure(error)
         }

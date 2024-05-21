@@ -26,10 +26,23 @@
 		3AE95DC726C1B95000872FD6 /* RestaurantCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE95DC626C1B95000872FD6 /* RestaurantCollectionCell.swift */; };
 		3AE95DC926C1B96800872FD6 /* RestaurantBasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE95DC826C1B96800872FD6 /* RestaurantBasicInfoView.swift */; };
 		3AE95DCB26C1B98400872FD6 /* RestaurantContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE95DCA26C1B98400872FD6 /* RestaurantContactInfoView.swift */; };
+		E3934C782BFD497700B48F3F /* ProjectBottleRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3934C772BFD497700B48F3F /* ProjectBottleRocketTests.swift */; };
+		E3934C7F2BFD4A0500B48F3F /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3934C7E2BFD4A0500B48F3F /* NetworkLayerTests.swift */; };
+		E3934C832BFD538000B48F3F /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3934C822BFD538000B48F3F /* MockNetworking.swift */; };
 		F5B3708426C26339005C9B10 /* RestaurantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3708326C26339005C9B10 /* RestaurantDataModel.swift */; };
 		F5B3708626C26428005C9B10 /* CustomUIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3708526C26428005C9B10 /* CustomUIComponents.swift */; };
 		F5B3708826C26549005C9B10 /* CustomViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3708726C26549005C9B10 /* CustomViewComponents.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3934C792BFD497700B48F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A771A0426C0C704007DA5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A771A0B26C0C704007DA5DB;
+			remoteInfo = ProjectBottleRocket;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3A771A0C26C0C704007DA5DB /* ProjectBottleRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBottleRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +66,10 @@
 		3AE95DC626C1B95000872FD6 /* RestaurantCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionCell.swift; sourceTree = "<group>"; };
 		3AE95DC826C1B96800872FD6 /* RestaurantBasicInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBasicInfoView.swift; sourceTree = "<group>"; };
 		3AE95DCA26C1B98400872FD6 /* RestaurantContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantContactInfoView.swift; sourceTree = "<group>"; };
+		E3934C752BFD497700B48F3F /* ProjectBottleRocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectBottleRocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3934C772BFD497700B48F3F /* ProjectBottleRocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBottleRocketTests.swift; sourceTree = "<group>"; };
+		E3934C7E2BFD4A0500B48F3F /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
+		E3934C822BFD538000B48F3F /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		F5B3708326C26339005C9B10 /* RestaurantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDataModel.swift; sourceTree = "<group>"; };
 		F5B3708526C26428005C9B10 /* CustomUIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIComponents.swift; sourceTree = "<group>"; };
 		F5B3708726C26549005C9B10 /* CustomViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewComponents.swift; sourceTree = "<group>"; };
@@ -66,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3934C722BFD497700B48F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3A771A0E26C0C704007DA5DB /* ProjectBottleRocket */,
+				E3934C762BFD497700B48F3F /* ProjectBottleRocketTests */,
 				3A771A0D26C0C704007DA5DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				3A771A0C26C0C704007DA5DB /* ProjectBottleRocket.app */,
+				E3934C752BFD497700B48F3F /* ProjectBottleRocketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +132,7 @@
 				3A771A2626C0C84F007DA5DB /* ErrorMessage.swift */,
 				3A771A2826C0CD02007DA5DB /* NetworkApiManager.swift */,
 				3A771A2A26C0CEED007DA5DB /* SessionManager.swift */,
+				E3934C822BFD538000B48F3F /* MockNetworking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -176,6 +203,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E3934C762BFD497700B48F3F /* ProjectBottleRocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3934C772BFD497700B48F3F /* ProjectBottleRocketTests.swift */,
+				E3934C7E2BFD4A0500B48F3F /* NetworkLayerTests.swift */,
+			);
+			path = ProjectBottleRocketTests;
+			sourceTree = "<group>";
+		};
 		F5B3708926C272C8005C9B10 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,17 +243,39 @@
 			productReference = 3A771A0C26C0C704007DA5DB /* ProjectBottleRocket.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3934C742BFD497700B48F3F /* ProjectBottleRocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3934C7D2BFD497700B48F3F /* Build configuration list for PBXNativeTarget "ProjectBottleRocketTests" */;
+			buildPhases = (
+				E3934C712BFD497700B48F3F /* Sources */,
+				E3934C722BFD497700B48F3F /* Frameworks */,
+				E3934C732BFD497700B48F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3934C7A2BFD497700B48F3F /* PBXTargetDependency */,
+			);
+			name = ProjectBottleRocketTests;
+			productName = ProjectBottleRocketTests;
+			productReference = E3934C752BFD497700B48F3F /* ProjectBottleRocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3A771A0426C0C704007DA5DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					3A771A0B26C0C704007DA5DB = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					E3934C742BFD497700B48F3F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3A771A0B26C0C704007DA5DB;
 					};
 				};
 			};
@@ -235,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				3A771A0B26C0C704007DA5DB /* ProjectBottleRocket */,
+				E3934C742BFD497700B48F3F /* ProjectBottleRocketTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +305,13 @@
 			files = (
 				3A771A1C26C0C705007DA5DB /* LaunchScreen.storyboard in Resources */,
 				3A771A1926C0C705007DA5DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3934C732BFD497700B48F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +334,7 @@
 				3AE95DC926C1B96800872FD6 /* RestaurantBasicInfoView.swift in Sources */,
 				F5B3708826C26549005C9B10 /* CustomViewComponents.swift in Sources */,
 				3A771A1226C0C704007DA5DB /* SceneDelegate.swift in Sources */,
+				E3934C832BFD538000B48F3F /* MockNetworking.swift in Sources */,
 				3A771A5E26C101B1007DA5DB /* ImageCache .swift in Sources */,
 				3AE95DC526C1B93800872FD6 /* MapView.swift in Sources */,
 				3AE95DBC26C1B8C400872FD6 /* RestaurantInfoViewController.swift in Sources */,
@@ -279,7 +346,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3934C712BFD497700B48F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3934C7F2BFD4A0500B48F3F /* NetworkLayerTests.swift in Sources */,
+				E3934C782BFD497700B48F3F /* ProjectBottleRocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3934C7A2BFD497700B48F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A771A0B26C0C704007DA5DB /* ProjectBottleRocket */;
+			targetProxy = E3934C792BFD497700B48F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3A771A1A26C0C705007DA5DB /* LaunchScreen.storyboard */ = {
@@ -445,6 +529,53 @@
 			};
 			name = Release;
 		};
+		E3934C7B2BFD497700B48F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.Liu.Ke.ProjectBottleRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectBottleRocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectBottleRocket";
+			};
+			name = Debug;
+		};
+		E3934C7C2BFD497700B48F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.Liu.Ke.ProjectBottleRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectBottleRocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectBottleRocket";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +593,15 @@
 			buildConfigurations = (
 				3A771A2126C0C705007DA5DB /* Debug */,
 				3A771A2226C0C705007DA5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3934C7D2BFD497700B48F3F /* Build configuration list for PBXNativeTarget "ProjectBottleRocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3934C7B2BFD497700B48F3F /* Debug */,
+				E3934C7C2BFD497700B48F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
