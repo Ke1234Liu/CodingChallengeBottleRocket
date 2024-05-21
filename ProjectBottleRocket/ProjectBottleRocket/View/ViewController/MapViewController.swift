@@ -10,7 +10,9 @@ import UIKit
 class MapViewController: UIViewController {
     
     private lazy var mapView: MapView = {
-        let mapView = MapView(latitudes: self.mainVM.allLatitudes(), longitudes: self.mainVM.allLatitudes(), titles: self.mainVM.allFormattedMapAnnotationTitle())
+        let mapView = MapView(latitudes: self.mainVM.allLatitudes(), 
+                              longitudes: self.mainVM.allLongitudes(),
+                              titles: self.mainVM.allFormattedMapAnnotationTitle())
         return mapView
     }()
     

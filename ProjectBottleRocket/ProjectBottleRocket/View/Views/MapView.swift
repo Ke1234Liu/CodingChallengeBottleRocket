@@ -17,7 +17,7 @@ class MapView: UIView {
         map.boundToSuperView()
         map.addAnnotations(self.annotations)
         if let firstCoordinate = self.annotations.first?.coordinate {
-            let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+            let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
             let region = MKCoordinateRegion(center: firstCoordinate, span: span)
             map.setRegion(region, animated: false)
         }

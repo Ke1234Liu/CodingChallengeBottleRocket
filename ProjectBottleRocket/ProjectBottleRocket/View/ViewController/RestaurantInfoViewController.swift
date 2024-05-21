@@ -9,19 +9,24 @@ import UIKit
 
 class RestaurantInfoViewController: UIViewController {
     private lazy var restaurantMapView: MapView = {
-        let mapView = MapView(latitudes: [self.restaurantInfoViewModel.latitude], longitudes: [self.restaurantInfoViewModel.longitude], titles: [self.restaurantInfoViewModel.formattedMapAnnotationTitle])
+        let mapView = MapView(latitudes: [self.restaurantInfoViewModel.latitude], 
+                              longitudes: [self.restaurantInfoViewModel.longitude],
+                              titles: [self.restaurantInfoViewModel.formattedMapAnnotationTitle])
         mapView.heightAnchor.constraint(equalToConstant: 180).isActive = true
         return mapView
     }()
     
     private lazy var basicInfoView: RestaurantBasicInfoView = {
-        let infoView = RestaurantBasicInfoView(name: self.restaurantInfoViewModel.name, category: self.restaurantInfoViewModel.category)
+        let infoView = RestaurantBasicInfoView(name: self.restaurantInfoViewModel.name, 
+                                               category: self.restaurantInfoViewModel.category)
         infoView.heightAnchor.constraint(equalToConstant: 72).isActive = true
         return infoView
     }()
     
     private lazy var contactInfoView: RestaurantContactInfoView = {
-        let contactView = RestaurantContactInfoView(address: self.restaurantInfoViewModel.formattedAddress, phone: self.restaurantInfoViewModel.formattedTelephone, twitter: self.restaurantInfoViewModel.socialMediaHandle)
+        let contactView = RestaurantContactInfoView(address: self.restaurantInfoViewModel.formattedAddress, 
+                                                    phone: self.restaurantInfoViewModel.formattedTelephone,
+                                                    twitter: self.restaurantInfoViewModel.socialMediaHandle)
         return contactView
     }()
     

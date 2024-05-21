@@ -25,9 +25,8 @@ extension UIView {
         
         self.topAnchor.constraint(equalTo: superViewGuide.topAnchor, constant: insets.top).isActive = true
         self.leadingAnchor.constraint(equalTo: superViewGuide.leadingAnchor, constant: insets.left).isActive = true
-        self.trailingAnchor.constraint(equalTo: superViewGuide.trailingAnchor, constant: insets.right).isActive = true
-        self.bottomAnchor.constraint(equalTo: superViewGuide.bottomAnchor, constant: insets.bottom).isActive = true
-
+        self.trailingAnchor.constraint(equalTo: superViewGuide.trailingAnchor, constant: -insets.right).isActive = true
+        self.bottomAnchor.constraint(equalTo: superViewGuide.bottomAnchor, constant: -insets.bottom).isActive = true
     }
 }
 
